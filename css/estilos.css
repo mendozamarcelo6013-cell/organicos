@@ -605,9 +605,8 @@ body.cart-open .cart-drawer{transform:none}
 .contact-item b{font-size:13px}
 .contact-item span{color:var(--muted);font-size:13px}
 .contact-info .contact-item:first-of-type{border-top:0;padding-top:6px}
-.faq{max-width:920px;margin-inline:0}
 .faq h2{margin-bottom:24px}
-.faq details{padding:17px 0}
+.faq details{padding:17px 0;max-width:920px}
 .faq summary{font-size:15px}
 .form-success{
   margin-top:18px;background:#eaf0e2;border:1px solid #cfdcc3;border-radius:11px;
