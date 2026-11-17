@@ -1,0 +1,32 @@
+ORGÁNICOS DEL NORTE — DEMO DE TIENDA (HTML + CSS + JS)
+
+CÓMO ABRIRLA
+• Opción rápida: abre index.html directamente en el navegador.
+• Opción recomendada: sirve la carpeta con un servidor local, por ejemplo:
+      python3 -m http.server 8000
+  y visita http://localhost:8000
+• No requiere instalar nada ni conexión a Internet. Las ilustraciones son SVG propios.
+
+QUÉ INCLUYE
+• 16 páginas conectadas: inicio, catálogo, dos categorías, seis fichas de producto,
+  carrito, checkout, confirmación, nosotros, contacto y mensaje de ejemplo.
+• Carrito funcional de demostración con localStorage: agregar productos, cambiar
+  cantidades, eliminar, vaciar y ver el total. Se sincroniza con el contador del
+  encabezado, el cajón lateral, la página del carrito y el checkout.
+• Catálogo con filtros por categoría y búsqueda por nombre.
+• Menú móvil, animaciones suaves de aparición y diseño adaptable.
+• Formulario de contacto y boletín: solo muestran un aviso; no envían datos.
+• Checkout: guarda un pedido de ejemplo en sessionStorage y muestra la confirmación.
+
+DEMOSTRACIÓN
+• Precios, presentaciones, testimonios y textos son referenciales y deben validarse
+  con el cliente.
+• No se procesan pagos, pedidos reales ni envíos.
+• Para reiniciar el carrito usa el botón "Vaciar carrito" o, desde la consola del
+  navegador: localStorage.removeItem('odn-cart-v1')
+
+ESTRUCTURA
+• css/estilos.css — estilos de toda la tienda
+• js/tienda.js    — carrito, filtros, menú y detalles interactivos
+• imagenes/       — logo e ilustraciones SVG
+• *.html          — páginas de la demo
